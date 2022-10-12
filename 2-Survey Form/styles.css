@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    background-image: url("https://media.admagazine.com/photos/618a5d9758ac69e38abb5c6b/master/w_1600%2Cc_limit/94321.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 550px;
+    margin: 70px auto 50px auto;
+    border:5px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#title{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+#description{
+    color: white;
+    font-style:oblique; 
+}
+
+p{
+    color: white;
+    font-size: 24px;
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.85);
+    max-width: 800px;
+    margin: 20px auto 50px auto;
+    line-height: 1.6;
+    border:5px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-initial{
+    text-align:start;
+    line-height: 1.6;
+    margin: 20px  0px 0px  20px;
+}
+
+
+

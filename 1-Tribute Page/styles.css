@@ -1,0 +1,69 @@
+body{
+    background-color:#948773;
+}
+main{
+    background-color:#B0E9F9;
+    border:5px solid #5D5140;
+    border-radius: 20px;
+    overflow:hidden;
+}
+
+#title{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family:'Lucida Sans';
+    text-align: center;
+
+}
+
+p{
+    
+    font-style: oblique;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: 200px;
+    margin: 0 auto;
+}
+
+main{
+    background-image: url("https://www.filco.es/uploads/2019/05/Leonardo-da-Vinci-1068x601.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#tribute-info{
+    background-color: #D2BA94;
+    max-width: 550px;
+    margin: 70px auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    border:5px solid #5D5140;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: #D2BA94;
+    
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    line-height: 1.6;
+    border:5px solid #5D5140;
+    border-radius: 10px;
+}
+
+
+
+
